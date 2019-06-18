@@ -3,8 +3,8 @@
 For this project I scraped job data from Seek and Indeed and scraped features like Job title, Location, Salary, Description, and Company.
 
 To scrape data I used Scrapy framework and link for that file is given below.
-[Indeed scarping file](https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/indeed_data.py)
-[Seek scraping file](https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/seek_scrape.py)
+- [Indeed scarping file](https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/indeed_data.py)
+- [Seek scraping file](https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/seek_scrape.py)
 
 To run that file go to command prompt and move to the path where you have saved that file
 Now, write following command to start  scraping data from Seek and Indeed
@@ -23,6 +23,7 @@ After scraping job data I cleaned the data like,
 - Impute the yearly salary from the given hourly, weekly and monthly salary
 
 Link of the notebook to clean job data is given below.
+
 [Data cleaning notebook](https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/data%20cleaning.ipynb)
 
 After cleaning the main objective of the project is,
@@ -40,6 +41,7 @@ For the first part of the project, to predict Salary, the following steps are ap
 - Found the best algorithm for classification and tuned hyperparameters to improve the result.
 
 The link for the above part is given in the below link.
+
 [Part-1 notebook](https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/question-1_notebook.ipynb)
 
 For the second part of the project, to predict Job titles, the following steps are applied,
@@ -51,5 +53,6 @@ For the second part of the project, to predict Job titles, the following steps a
 
 
 The link for the above part is given in the below link.
+
 [Part-2 notebook](https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/question-2_notebook.ipynb)
-The code
+
