@@ -3,19 +3,19 @@
 For this project I scraped job data from Seek and Indeed and scraped features like Job title, Location, Salary, Description, and Company.
 
 To scrape data I used Scrapy framework and link for that file is given below.
-[Indeed scarping file][
-
+[Indeed scarping file][https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/indeed_data.py]
+[Seek scraping file][https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/seek_scrape.py]
 
 To run that file go to command prompt and move to the path where you have saved that file
 Now, write following command to start  scraping data from Seek and Indeed
 
-scrapy runspider indeed_data.py
-scrapy runspider seek_data.py
+- scrapy runspider indeed_data.py
+- scrapy runspider seek_data.py
 
 To save the scraped result in csv file for future use write following commands.
 
-scrapy runspider indeed_data.py -o indeed_data.csv
-scrapy runspider seek_data.py -o seek_data.csv
+- scrapy runspider indeed_data.py -o indeed_data.csv
+- scrapy runspider seek_data.py -o seek_data.csv
 
 
 After scraping job data I cleaned the data like,
@@ -23,7 +23,7 @@ After scraping job data I cleaned the data like,
 - Impute the yearly salary from the given hourly, weekly and monthly salary
 
 Link of the notebook to clean job data is given below.
-LINK
+[Data cleaning notebook][https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/data%20cleaning.ipynb]
 
 After cleaning the main objective of the project is,
 1. to predict the salary based on the given data
@@ -40,7 +40,7 @@ For the first part of the project, to predict Salary, the following steps are ap
 - Found the best algorithm for classification and tuned hyperparameters to improve the result.
 
 The link for the above part is given in the below link.
-LINK
+[Part-1 notebook][https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/question-1_notebook.ipynb]
 
 For the second part of the project, to predict Job titles, the following steps are applied,
 - Preprocessed text of job description to remove punctuation marks, numerical data and converting text to lower case
@@ -51,5 +51,5 @@ For the second part of the project, to predict Job titles, the following steps a
 
 
 The link for the above part is given in the below link.
-LINK
+[Part-2 notebook][https://github.com/krutika731/Salary-and-Job-title-prediction-from-scraped-job-data/blob/master/question-2_notebook.ipynb]
 The code
